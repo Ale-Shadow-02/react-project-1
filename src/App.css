@@ -1,5 +1,6 @@
 .App {
   text-align: center;
+  padding-top: 50px;
 }
 
 .App-logo {
@@ -36,3 +37,47 @@
     transform: rotate(360deg);
   }
 }
+
+/*My styles ================================*/
+
+.wrapper {
+  width: 600px;
+  background-color: #37e7ff;
+  padding: 20px 15px;
+  margin: 0 auto;
+}
+
+.count__title {
+  text-align: center;
+  margin-bottom: 30px;
+}
+
+.wrap__count {
+  display: flex;
+  justify-content: center;
+}
+
+.box__count {
+  width: 15px;
+  border: 1px solid #570eff;
+  border-radius: 2px;
+  padding: 10px 30px;
+  cursor: pointer;
+  margin-right: 10px;
+  text-align: center;
+}.box__count:hover {
+   color: #fff;
+   background-color: #4863ff;
+ }
+
+ ul {
+   list-style: none;
+   text-align: left;
+ }
+
+ .delete__btn {
+   margin-left: 10px;
+   cursor: pointer;
+ }
+
+
