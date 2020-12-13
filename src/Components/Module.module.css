@@ -1,0 +1,29 @@
+.header {
+  background-color:rgba(240, 236, 15, 0.945);
+  padding: 20px;
+}
+
+.body {
+  background-color:rgba(161, 70, 70, 0.5);
+  width: 70%;
+  margin: 0 auto;
+  padding: 20px 0;
+}
+
+.list {
+  display: flex;
+  justify-content: space-around;
+}
+
+.link {
+  text-decoration: none;
+  color: #fff;
+  background-color:rgba(233, 23, 23, 0.5);
+  letter-spacing: 2px;
+  line-height: 3px;
+  padding: 5px 10px;
+}
+
+.link:hover {
+  background-color:rgb(11, 33, 228);
+}

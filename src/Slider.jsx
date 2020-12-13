@@ -1,7 +1,6 @@
-import React, {Component} from "react";
+import React, { Component } from "react";
 
 class Slider extends Component {
-
   state = {
     images: [],
     currentIndexImg: 0,
